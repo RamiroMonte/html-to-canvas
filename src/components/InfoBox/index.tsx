@@ -93,18 +93,18 @@ const InfoBox = () => {
               <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:max-w-none">
                   <div className="text-center space-y-4">
-                    <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl leading-loose">
+                    <h2 className="text-xl font-bold tracking-tight text-white leading sm:text-3xl">
                       Juntos, celebramos <br />
                       um 2023 extraordinário!
                     </h2>
-                    <p className="text-md leading-8 text-gray-200 font-semibold">
+                    <p className="text-sm leading text-gray-200 font-semibold sm:leading-8">
                       A sua jornada na Academia Digital Einstein foi repleta de
                       descobertas e conquistas.
                       <br /> Vamos relembrar juntos?
                     </p>
                   </div>
-                  <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
-                    <div className="flex flex-col bg-white/5 p-8 px-">
+                  <dl className="mt-16 grid grid-cols-2 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
+                    <div className="flex flex-col bg-white/5  px- p-2 sm:p-8">
                       <dt className="text-xs font-semibold leading-4 text-gray-300">
                         dias que você faz parte da Academia Digital Einstein
                       </dt>
@@ -116,7 +116,7 @@ const InfoBox = () => {
                         // }}
                       >
                         <div
-                          className="flex items-center justify-center mb-6"
+                          className="flex items-end justify-center mb-6"
                           style={{
                             height: "120px",
                           }}
@@ -138,7 +138,7 @@ const InfoBox = () => {
                         </motion.span>
                       </dd>
                     </div>
-                    <div className="flex flex-col bg-white/5 p-8 px-">
+                    <div className="flex flex-col bg-white/5 p-2 sm:p-8 px-">
                       <dt className="text-xs font-semibold leading-4 text-gray-300">
                         minuto, é o tempo que você obtém uma nova descoberta
                       </dt>
@@ -149,7 +149,7 @@ const InfoBox = () => {
                         // }}
                       >
                         <div
-                          className="flex items-center justify-center mb-6"
+                          className="flex items-end justify-center mb-6"
                           style={{
                             height: "120px",
                           }}
@@ -171,7 +171,7 @@ const InfoBox = () => {
                         </motion.span>
                       </dd>
                     </div>
-                    <div className="flex flex-col bg-white/5 p-8 px-">
+                    <div className="flex flex-col bg-white/5 p-2 sm:p-8 px-">
                       <dt className="text-xs font-semibold leading-4 text-gray-300">
                         dos seus objetivos foram conquistados
                       </dt>
@@ -182,7 +182,7 @@ const InfoBox = () => {
                         // }}
                       >
                         <div
-                          className="flex items-center justify-center mb-6"
+                          className="flex items-end justify-center mb-6"
                           style={{
                             height: "120px",
                           }}
@@ -217,7 +217,7 @@ const InfoBox = () => {
                         </motion.span>
                       </dd>
                     </div>
-                    <div className="flex flex-col bg-white/5 p-8 px-4">
+                    <div className="flex flex-col bg-white/5 p-2 sm:p-8 px-4">
                       <dt className="text-xs font-semibold leading-4 text-gray-300">
                         cursos realizados por você
                       </dt>
@@ -228,7 +228,7 @@ const InfoBox = () => {
                         // }}
                       >
                         <div
-                          className="flex items-center justify-center mb-6"
+                          className="flex items-end justify-center mb-6"
                           style={{
                             height: "120px",
                           }}
